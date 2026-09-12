@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-# Corrección aquí: se usa st.set_page_config en lugar de st.set_page_title
-st.set_page_config(page_title="Visor de Excel en la Nube", layout="wide")
+st.set_page_config(page_title="Visor de Excel", layout="wide")
 st.title("📊 Visor de Reportes de Producción")
 
 archivo_excel = "INFORME DE PRODUCCION (RIPRO) v2 1.xlsx"
